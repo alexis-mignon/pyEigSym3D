@@ -9,8 +9,13 @@ ext_modules = [
 ]
 
 setup(
-    name = "eigsym3d",
+    name = "pyEigSym3D",
     cmdclass = {'build_ext': build_ext},
-    ext_modules = ext_modules
+    ext_modules = ext_modules,
+    author = 'Alexis Mignon',
+	author_email = "alexis.mignon@gmail.com",
+    url = 'http://github.com/alexis-mignon/pyEigSym3D',
+    description = 'Fast eigen decomposition of 3x3 symmetric matrices',
+    license = 'GPL 2.0',
 )
 
